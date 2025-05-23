@@ -8,13 +8,13 @@ const TAB_DATA = [
     title: "Skills",
     id: "skills",
     content: (
-      <ul className="list-disc pl-2">
-        <li>Node.js</li>
-        <li>Express</li>
-        <li>PostgreSQL</li>
-        <li>Sequelize</li>
-        <li>JavaScript</li>
-        <li>React</li>
+      <ul className="pl-2 list-disc">
+        <li>Penetration Tester</li>
+        <li>Security Information and Event Management (SIEM)</li>
+        <li>Web/Mobile Development</li>
+        <li>Project Planning</li>
+        <li>Problem Solving</li>
+        <li>Communication</li>
       </ul>
     ),
   },
@@ -22,9 +22,9 @@ const TAB_DATA = [
     title: "Education",
     id: "education",
     content: (
-      <ul className="list-disc pl-2">
-        <li>Fullstack Academy of Code</li>
-        <li>University of California, Santa Cruz</li>
+      <ul className="pl-2 list-disc">
+        <li>IBM & Red Hat Academy</li>
+        <li>Politeknik Negeri Batam</li>
       </ul>
     ),
   },
@@ -32,7 +32,7 @@ const TAB_DATA = [
     title: "Certifications",
     id: "certifications",
     content: (
-      <ul className="list-disc pl-2">
+      <ul className="pl-2 list-disc">
         <li>AWS Cloud Practitioner</li>
         <li>Google Professional Cloud Developer</li>
       </ul>
@@ -52,17 +52,19 @@ const AboutSection = () => {
 
   return (
     <section className="text-white" id="about">
-      <div className="md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16">
-        <Image src="/images/foto6.png" width={500} height={500} />
-        <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
-          <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
+      <div className="items-center gap-8 px-4 py-8 md:grid md:grid-cols-2 xl:gap-16 sm:py-16 xl:px-16">
+        <Image src="/images/redhat.jpeg" width={500} height={500} />
+        <div className="flex flex-col h-full mt-4 text-left md:mt-0">
+          <h2 className="mb-4 text-4xl font-bold text-white">About Me</h2>
           <p className="text-base lg:text-lg">
-            I am a full stack web developer with a passion for creating
-            interactive and responsive web applications. I have experience
-            working with JavaScript, React, Redux, Node.js, Express, PostgreSQL,
-            Sequelize, HTML, CSS, and Git. I am a quick learner and I am always
-            looking to expand my knowledge and skill set. I am a team player and
-            I am excited to work with others to create amazing applications.
+            Hello... I am a cyber security engineer with a passion for playing
+            in the virtual world since the age of 5, in the development of
+            growth I have a hobby of playing computers until now, my experience
+            has created websites, android applications, cisco network
+            simulations, being a blue team and red team. I am a fast learner and
+            I am always looking to expand my knowledge and skills, I am a team
+            player and I love working with others to create amazing
+            applications. Translated with DeepL.com (free version)
           </p>
           <div className="flex flex-row justify-start mt-8">
             <TabButton
@@ -79,13 +81,13 @@ const AboutSection = () => {
               {" "}
               Education{" "}
             </TabButton>
-            <TabButton
+            {/* <TabButton
               selectTab={() => handleTabChange("certifications")}
               active={tab === "certifications"}
             >
               {" "}
               Certifications{" "}
-            </TabButton>
+            </TabButton> */}
           </div>
           <div className="mt-8">
             {TAB_DATA.find((t) => t.id === tab).content}
