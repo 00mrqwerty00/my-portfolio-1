@@ -35,8 +35,7 @@ const projectsData = [
 
   {
     id: 4,
-    title:
-      "REV Certificated Best Project MSIB 6 - IBM Academy",
+    title: "REV Certificated Best Project MSIB 6 - IBM Academy",
     description: "Best capstone Project at IBM Academy",
     image: "/images/projects/best-project.jpg",
     tag: ["All", "Cyber Security"],
@@ -98,7 +97,8 @@ const CertificatedSection = () => {
       <h2 className="mt-4 mb-8 text-4xl font-bold text-center text-white md:mb-12">
         My Certificated
       </h2>
-      <div className="flex flex-row items-center justify-center gap-2 py-6 text-white">
+
+      <div className="flex flex-col items-center justify-center gap-2 py-6 text-white sm:flex-row">
         <ProjectTag
           onClick={handleTagChange}
           name="All"
@@ -120,6 +120,7 @@ const CertificatedSection = () => {
           isSelected={tag === "Mobile"}
         />
       </div>
+
       <ul ref={ref} className="grid gap-8 md:grid-cols-3 md:gap-12">
         {filteredProjects.map((project, index) => (
           <motion.li
