@@ -99,7 +99,7 @@ const CertificatedSection = () => {
   };
 
   return (
-    <section id="projects">
+    <section id="certificate">
       <div className="px-4 py-8 xl:gap-16 sm:py-16 xl:px-16">
         <div className="sm:border-[#33353F] sm:border rounded-md py-8 px-16 flex flex-col sm:flex-row items-center justify-between"></div>
       </div>
@@ -107,7 +107,7 @@ const CertificatedSection = () => {
         My Certificated
       </h2>
 
-      <div className="flex flex-col items-center justify-center gap-2 py-6 text-white sm:flex-row">
+      {/* <div className="flex flex-col items-center justify-center gap-2 py-6 text-white sm:flex-row">
         <ProjectTag
           onClick={handleTagChange}
           name="All"
@@ -128,7 +128,7 @@ const CertificatedSection = () => {
           name="Mobile"
           isSelected={tag === "Mobile"}
         />
-      </div>
+      </div> */}
 
       <ul ref={ref} className="grid gap-8 md:grid-cols-3 md:gap-12">
         {filteredProjects.map((project, index) => (

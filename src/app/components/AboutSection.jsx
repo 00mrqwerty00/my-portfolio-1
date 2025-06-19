@@ -14,7 +14,8 @@ const TAB_DATA = [
         <li>Web/Mobile Development</li>
         <li>Project Planning</li>
         <li>Problem Solving</li>
-        <li>Communication</li>
+        <li>Good Communication</li>
+        <li>Team Work</li>
       </ul>
     ),
   },
@@ -60,11 +61,10 @@ const AboutSection = () => {
             Hello... I am a cyber security engineer with a passion for playing
             in the virtual world since the age of 5, in the development of
             growth I have a hobby of playing computers until now, my experience
-            has created websites, android applications, cisco network
-            simulations, being a blue team and red team. I am a fast learner and
+            has created web/mobile development, being a blue team and red team. I am a fast learner and
             I am always looking to expand my knowledge and skills, I am a team
             player and I love working with others to create amazing
-            applications. Translated with DeepL.com (free version)
+            applications.
           </p>
           <div className="flex flex-row justify-start mt-8">
             <TabButton

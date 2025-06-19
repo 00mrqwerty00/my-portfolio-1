@@ -85,7 +85,7 @@ const ProjectsSection = () => {
       <h2 className="mt-4 mb-8 text-4xl font-bold text-center text-white md:mb-12">
         My Projects
       </h2>
-      <div className="flex flex-col items-center justify-center gap-2 py-6 text-white sm:flex-row">
+      {/* <div className="flex flex-col items-center justify-center gap-2 py-6 text-white sm:flex-row">
         <ProjectTag
           onClick={handleTagChange}
           name="All"
@@ -106,7 +106,7 @@ const ProjectsSection = () => {
           name="Mobile"
           isSelected={tag === "Mobile"}
         />
-      </div>
+      </div> */}
       <ul ref={ref} className="grid gap-8 md:grid-cols-3 md:gap-12">
         {filteredProjects.map((project, index) => (
           <motion.li

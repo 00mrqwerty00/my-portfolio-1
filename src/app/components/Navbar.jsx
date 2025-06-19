@@ -11,6 +11,10 @@ const navLinks = [
     path: "#about",
   },
   {
+    title: "Certificate",
+    path: "#certificate",
+  },
+  {
     title: "Projects",
     path: "#projects",
   },
@@ -24,7 +28,7 @@ const Navbar = () => {
   const [navbarOpen, setNavbarOpen] = useState(false);
 
   return (
-    <nav className="fixed mx-auto border border-[#33353F] top-0 left-0 right-0 z-10 bg-[#121212] bg-opacity-100">
+    <nav className="fixed mx-auto border border-[#33353F] top-0 left-0 right-0 z-20 bg-[#121212] bg-opacity-100">
       <div className="container flex flex-wrap items-center justify-between px-4 py-2 mx-auto lg:py-4">
         <Link
           href={"/"}
