@@ -46,13 +46,7 @@ const HeroSection = () => {
               Hire Me
             </Link>
             <Link
-              href="/#"
-              className="inline-block w-full px-6 py-3 mr-4 text-white rounded-full sm:w-fit bg-gradient-to-br from-blue-500 to-cyan-600 hover:bg-slate-200"
-            >
-              My Blog
-            </Link>
-            <Link
-              href="/"
+              href="/CV-2025.pdf"
               className="inline-block w-full px-1 py-1 mt-3 text-white rounded-full sm:w-fit bg-gradient-to-br from-blue-500 to-cyan-600 hover:bg-slate-800"
             >
               <span className="block bg-[#121212] hover:bg-slate-800 rounded-full px-5 py-2">

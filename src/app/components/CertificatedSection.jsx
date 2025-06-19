@@ -15,16 +15,25 @@ const projectsData = [
     previewUrl: "/",
   },
   {
-    id: 2,
+    id: 3,
+    title: "ITEBA Batam Institute of Technology",
+    description: "Penestration Tester at ITEBA Batam",
+    image: "/images/projects/sertifikat-iteba.jpg",
+    tag: ["All", "Cyber Security"],
+    gitUrl: "/",
+    previewUrl: "/",
+  },
+  {
+    id: 4,
     title: "Diskominfotik DKI Jakarta Sertifikat",
-    description: "Penestration Tester at at Diskominfotik DKI Jakarta",
+    description: "Penestration Tester at Diskominfotik DKI Jakarta",
     image: "/images/projects/sertifikat-jakarta.jpg",
     tag: ["All", "Cyber Security"],
     gitUrl: "/",
     previewUrl: "/",
   },
   {
-    id: 3,
+    id: 5,
     title: "Red Hat Certificated System Administrator",
     description: "Red Hat Academy",
     image: "/images/projects/redhat-sertifikat.jpg",
@@ -34,7 +43,7 @@ const projectsData = [
   },
 
   {
-    id: 4,
+    id: 6,
     title: "REV Certificated Best Project MSIB 6 - IBM Academy",
     description: "Best capstone Project at IBM Academy",
     image: "/images/projects/best-project.jpg",
@@ -43,7 +52,7 @@ const projectsData = [
     previewUrl: "/",
   },
   {
-    id: 5,
+    id: 7,
     title: "Alibaba Cloud",
     description: "Generative AI",
     image: "/images/projects/alibaba-cloud.jpg",
